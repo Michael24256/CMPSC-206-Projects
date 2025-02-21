@@ -1,0 +1,23 @@
+* {
+    color: red;
+    text-align: center;
+}
+
+#nav,
+#main,
+.article,
+#footer {
+    background-color: black;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+}
+
+#main,
+.article {
+    height: 100px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}

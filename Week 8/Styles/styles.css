@@ -1,0 +1,42 @@
+div.center{
+    text-align: center;
+}
+
+.tableCenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td {
+    width: 340px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+div.labelP{
+    padding-left: 10px;
+    float: left;
+}
+
+div.score {
+    padding-right: 10px;
+    float: right;
+}
+
+.scoreWinning {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.scoreLosing {
+    opacity: 0.5;
+    font-size: medium;
+}
+
+.scoreTie {
+    font-weight: bold;
+    font-size: medium;
+    
+}
+

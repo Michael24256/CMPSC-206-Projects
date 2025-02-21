@@ -1,0 +1,50 @@
+<html>
+<body>
+    
+    <link rel="stylesheet" href="Styles/styles.css">    
+    
+     <script src="shopLogic.js"></script>
+    
+    
+    <div class="center">
+    <h2 class="welcome">Welcome Customers!</h2>
+    
+    
+   
+    
+    
+    <form id="customerForm" method="get" action="#">
+        <script>document.querySelector("form").setAttribute("action", "")</script>
+        
+         
+        
+        <input type="checkbox" name="price1" value="1.57" onclick="calculateRawCost()">
+        <label for="price1">Pizza</label>
+        
+        <br>
+        
+        <input type="checkbox" name="price2" value="1.39" onclick="calculateRawCost()">
+                <label for="price2">Chicken Finger</label>
+
+        <br>
+        
+        <input type="checkbox" value="1.13"  name="price3" onclick="calculateRawCost()">
+                <label for="price3">Fries</label>
+        
+        <br>
+        
+        <input type="checkbox" value="1.72" name="price4" onclick="calculateRawCost">
+                <label for="price4">Drink</label>
+
+        <br>
+        
+        <input type="submit" value="Submit" onclick="calculateCostPlusTax()">
+    
+    </form>
+        
+        <input value="$0.00" readonly="readonly" type="text" id="totalCostMinusTax">
+    </div>
+    
+    
+    </body>
+</html>

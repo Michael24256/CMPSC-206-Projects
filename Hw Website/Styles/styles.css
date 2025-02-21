@@ -1,0 +1,28 @@
+
+h1.center {
+ color: blue;
+border: thin solid red;
+}
+/*based this example of the book*/
+
+#para {
+    color: aqua;
+text-align: center}
+
+#par{
+    text-align: right
+}
+
+.center {
+    text-align: center;}
+
+
+ol {color: chartreuse}
+
+ul {font-family: cursive}
+
+#first{
+    color: firebrick
+}
+
+
